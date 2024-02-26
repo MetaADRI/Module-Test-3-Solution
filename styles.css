@@ -1,0 +1,55 @@
+.menu-section {
+  background-color: #f5f5f5; /* Set your desired background color */
+  padding: 50px 0; /* Adjust padding as needed */
+}
+
+@media (max-width: 768px) {
+  .menu-section {
+    padding: 30px 0; /* Adjust padding for tablet and mobile views */
+  }
+}
+
+.navbar {
+  margin-bottom: 0; /* Remove default margin */
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent; /* Remove default border color */
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #333; /* Set color for the menu bars */
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent; /* Remove default hover background color */
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #fff; /* Set color for the menu bars on focus */
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: #fff; /* Set color for the menu bars on hover */
+}
+
+.navbar-default .navbar-collapse {
+  border: none; /* Remove default border */
+}
+
+.navbar-default .navbar-nav > li > a {
+  padding-top: 15px; /* Adjust padding as needed */
+  padding-bottom: 15px; /* Adjust padding as needed */
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: transparent; /* Remove default background color on hover/focus */
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent; /* Remove default background color on active link */
+}
